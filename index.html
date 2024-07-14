@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Udonuts!</title>
+</head>
+    <body>
+        
+    <!--navBar-->
+        <div class="nav-container">
+            <nav class="navbar">
+                <h1 class="navbar-logo">Comprar</h1>
+                <h2 class="ver-carrito" id="verCarrito">Carrito🛍️ <span id="cantidadCarrito" class="cantidad-carrito"><></h2>
+            </nav>
+        </div>
+
+    <!--banner-->
+        <div class="banner">
+            <div class="banner-container">
+                <h2>Udonuts! Shop</h2>
+                <p>Las mejores Donas de Uruguay</p>
+            </div>
+        </div>
+
+        <!--div class="donasize">
+        <img id="chocolate1" src="Assets/chocolate.jpg" alt="">
+        <img id="crema1" src="Assets/crema.jpg" alt="">
+        <img id="almendras1" src="Assets/almendras.jpg" alt="">
+        <img id="chocolateBlanco1" src="Assets/chocolate blanco.jpg" alt="">
+    </div>-->
+
+        <!--Donas compra-->
+        <div id="shopContent" class="shop-contents"></div>
+
+        <!--Shop window-->
+        <div id="shop-container" class="shop-container"></div>
+
+        <!-- <script src="donas.js"></script> script que usaba para cargar los productos --> 
+        <script src="app.js"></script>
+        <script src="carrito.js"></script>
+
+        <!-- Toastify libreria -->
+        <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    </body>
+</html>
